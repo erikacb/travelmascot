@@ -1,0 +1,64 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Your Trips</ion-title>
+    
+<ion-buttons end>
+
+        <button ion-button icon-only (click)="createTrip()">
+            <ion-icon name="ios-create-outline"></ion-icon>
+        </button>
+
+    </ion-buttons>
+
+
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+<ion-card>
+  <ion-card-header>
+    <p class="card-title">Name of The Trip</p>
+    <p class="card-date">Oct 12th - Oct 29th</p>
+  </ion-card-header>
+
+  <ion-list>
+    <button ion-item>
+      <ion-icon name="ios-paper-outline" item-left></ion-icon>
+      Before Travelling
+    </button>
+
+    <button ion-item>
+      <ion-icon name="ios-plane-outline" item-left></ion-icon>
+      Flights
+    </button>
+
+    <button ion-item>
+      <ion-icon name="ios-home-outline" item-left></ion-icon>
+      Accommodations
+    </button>
+
+    <button ion-item>
+      <ion-icon name="ios-map-outline" item-left></ion-icon>
+      Places
+    </button>
+
+    <button ion-item>
+      <ion-icon name="beer" item-left></ion-icon>
+      Pub
+    </button>
+
+    <button ion-item>
+      <ion-icon name="planet" item-left></ion-icon>
+      Space
+    </button>
+
+  </ion-list>
+</ion-card>
+
+</ion-content>
